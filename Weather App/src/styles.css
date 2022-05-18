@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Container{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+  background-color : rgb(168, 50, 166);
+  height:70px;
+  width: 270px;
+  border-radius:10px;
+}
+.input{
+  margin-top: 20px;
+  border-radius:5px;
+  padding: 3px;
+}
+.input:hover{
+  border: 2px solid blueviolet;
+}
+.btn{
+  margin-left: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px;
+}
+.btn:hover{
+  background-color:wheat;
+}
+.Icon{
+  margin-top:20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
